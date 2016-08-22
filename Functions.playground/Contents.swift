@@ -43,3 +43,30 @@ func getAgeAndCongratulate(name: String) -> Int {
 
 let friend2 = "Pete"
 var friend2Age = getAgeAndCongratulate(friend2)
+
+
+// for this example we want a vehicle, the year it was built and the owner.
+
+func carYearAndOwner (carModel:String, yearBuilt:Int, ownerName:String) -> Int {
+    
+    print("This \(carModel) is from \(yearBuilt) and the owner is \(ownerName)")
+    return yearBuilt
+
+}
+
+var car = "Plymouth"
+var year = 1964
+var owner = "Adam"
+
+carYearAndOwner(car, yearBuilt: year, ownerName: owner)
+
+func carAndYear (car:String) -> Int {
+    let Fiat = 1950
+    return Fiat
+    
+}
+
+var yearCar3 = carAndYear(car)
+
+print(yearCar3)
+
